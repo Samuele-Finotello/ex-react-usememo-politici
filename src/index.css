@@ -1,9 +1,23 @@
+body {
+  padding-left: 20px;
+}
+
 img {
-  width: 200px;
+  width: 150px;
+  border-bottom-left-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+input {
+  width: 300px;
 }
 
 .card {
-  width: 60%;
+  width: 800px;
   border-radius: 20px;
   background-color: lightblue;
 }
@@ -13,8 +27,8 @@ img {
   width: 100%;
 }
 
-.ms-10 {
-  margin-left: 10px;
+.mx-10 {
+  margin: 0 10px;
 }
 
 .pt-20 {
